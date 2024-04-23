@@ -68,6 +68,7 @@ public class createSecureAccount {
         // Click on "Create" button
         WebElement createButton = driver.findElement(By.xpath("//*[@id=\"app-content\"]/div/div[2]/div/div/div/div[2]/form/button"));
         createButton.click();
+        Thread.sleep(5000);
 
         // Click on "Secure Account" button
         WebElement Secure = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"app-content\"]/div/div[2]/div/div/div/div[2]/button[2]")));

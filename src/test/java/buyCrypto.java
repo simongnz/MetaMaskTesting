@@ -122,7 +122,7 @@ public class buyCrypto {
 
         TakesScreenshot screenshot = (TakesScreenshot)driver;
         File src= screenshot.getScreenshotAs(OutputType.FILE);
-        File des = new File("/Users/simongonzalez/Downloads/metabuy.png");
+        File des = new File("/Users/simongonzalez/Downloads/metabuy123.png");
         FileHandler.copy(src,des);
     }
 

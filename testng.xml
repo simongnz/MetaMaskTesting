@@ -6,8 +6,8 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="/Users/simongonzalez/IdeaProjects/Project">
         <classes>
-            <class name="createAccount"></class>
             <class name="createSecureAccount"></class>
+            <class name="createAccount"></class>
             <class name="signIn"></class>
             <class name="buyCrypto"></class>
         </classes>
